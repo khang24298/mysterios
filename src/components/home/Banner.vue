@@ -3,7 +3,6 @@
     <v-img
       :src="require('@/assets/articles/blurcamera.jpg')"
       class="grey lighten-2"
-      height="400"
       width="100%"
     >
       <v-row

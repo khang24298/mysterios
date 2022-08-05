@@ -1,10 +1,10 @@
 <template>
   <div id="home">
-    <articles>
-      <banner />
-    </articles>
+    <banner />
 
-    <about />
+    <articles></articles>
+
+    <timeline/>
 
     <subscribe />
 
@@ -17,7 +17,7 @@
     name: 'Home',
 
     components: {
-      About: () => import('@/components/home/About'),
+      Timeline: () => import('@/components/home/Timeline'),
       Articles: () => import('@/components/home/Articles'),
       Banner: () => import('@/components/home/Banner'),
       Social: () => import('@/components/home/Social'),

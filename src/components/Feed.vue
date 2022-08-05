@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <div>
     <v-row>
       <v-col cols="12">
         <slot />
@@ -48,7 +48,7 @@
         </base-btn>
       </v-col>
     </v-row>
-  </v-container>
+  </div>
 </template>
 
 <script>
@@ -65,7 +65,7 @@
     },
 
     data: () => ({
-      layout: [2, 2, 1, 2, 2, 3, 3, 3, 3, 3, 3],
+      layout: [2, 2, 1, 2, 2, 3, 3, 3],
       page: 1,
     }),
 
@@ -89,3 +89,9 @@
     },
   }
 </script>
+
+<style scoped>
+.v-sheet.v-card{
+  border-radius: 10px!important;
+}
+</style>

@@ -43,8 +43,7 @@
                 <div class="numbers" >{{seconds}}</div>seconds
             </div>
         </div>
-        <h1>Be Patient! 
-          They will be revealed in your birthday! </h1>
+        <h1>Đúng thời điểm, bí mật sẽ được bật mí!<br><b> Yêu em! </b></h1>
     </div>
 </template>
 
@@ -126,7 +125,7 @@ body {
 
 .container {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 20%;
     overflow: hidden;
     width: 60%;

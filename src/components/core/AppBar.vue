@@ -10,20 +10,20 @@
 
     <v-container class="mx-auto py-0">
       <v-row align="center">
-        <v-img
-          :src="require('@/assets/logo.png')"
-          class="mr-5"
-          contain
-          height="48"
-          width="48"
-          max-width="48"
-          @click="$vuetify.goTo(0)"
-        />
+          <v-img
+            :src="require('@/assets/logo_recut.jpeg')"
+            class="mr-5 rounded-circle"
+            contain
+            height="48"
+            width="48"
+            max-width="48"
+            @click="$vuetify.goTo(0)"
+          />
 
         <v-card-text
           class="hidden-sm-and-down d-contents"
         >
-        <h1>My wonderfull black girl birthday!</h1>
+        <h1>My bất ổn girl birthday!</h1>
         </v-card-text>
 
         <v-spacer />

@@ -20,26 +20,14 @@
           @click="$vuetify.goTo(0)"
         />
 
-        <v-btn
-          v-for="(link, i) in links"
-          :key="i"
-          v-bind="link"
-          class="hidden-sm-and-down"
-          text
-          @click="onClick($event, link)"
+        <v-card-text
+          class="hidden-sm-and-down d-contents"
         >
-          {{ link.text }}
-        </v-btn>
+        <h1>My wonderfull black girl birthday!</h1>
+        </v-card-text>
 
         <v-spacer />
 
-        <v-text-field
-          append-icon="mdi-magnify"
-          flat
-          hide-details
-          solo-inverted
-          style="max-width: 300px;"
-        />
       </v-row>
     </v-container>
   </v-app-bar>
@@ -71,3 +59,12 @@
     },
   }
 </script>
+
+<style scoped>
+.d-contents{
+  display:contents;
+}
+.d-contents h1{
+  font-family: 'Courier New', Courier, monospace;
+}
+</style>

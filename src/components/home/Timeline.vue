@@ -1,5 +1,5 @@
 <template>
-  <v-timeline>
+  <v-timeline class="container">
     <v-timeline-item
       v-for="n in 4"
       :key="n"

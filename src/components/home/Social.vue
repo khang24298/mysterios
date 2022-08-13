@@ -2,6 +2,7 @@
   <v-container
     id="social"
     tag="section"
+    class="container"
   >
         <v-stepper
           v-model="e6"
